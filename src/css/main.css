@@ -20,3 +20,75 @@ label {
 input:focus {
   outline: none;
 }
+
+body {
+  font-family: "Plus Jakarta Sans";
+  background: #f9f9f9;
+}
+
+form {
+  margin: 50px;
+  display: flex;
+  width: 400px;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 32px;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+label {
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+input {
+  display: flex;
+  width: 336px;
+  height: 40px;
+  padding-left: 12px;
+  justify-content: flex-end;
+  margin-bottom: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  transition: background 0.5s;
+}
+
+input:focus {
+  border-radius: 4px;
+  border: 1px solid #000;
+  background: #eee;
+}
+
+button {
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 4px;
+  background: #1576ea;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  border: 0px;
+  transition: background 0.5s;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0b0b0b;
+}
